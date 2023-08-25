@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import NavbarComp from "./component/Navbar";
+import Navigation from "./component/Navigation";
 import "./styles/App.css";
 import { Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
@@ -9,7 +9,7 @@ import ProjectPage from "./pages/ProjectPage";
 function App() {
   return (
     <>
-      <NavbarComp />
+      <Navigation />
       <main>
         <Routes>
           <Route path="/" exact element={<HomePage />} />

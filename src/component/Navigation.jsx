@@ -5,7 +5,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
 
-function NavbarComp() {
+function Navigation() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
@@ -42,4 +42,4 @@ function NavbarComp() {
   );
 }
 
-export default NavbarComp;
+export default Navigation;
